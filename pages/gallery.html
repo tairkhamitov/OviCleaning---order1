@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galéria - Ovi Cleaning | Pred a Po Fotografie Čistenia Áut</title>
+    <meta name="description" content="Pozrite si našu galériu pred a po fotografií. Transformácie vozidiel od základného čistenia po kompletný detailing v Bratislave." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fovicleani9787back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background text-text-primary overflow-x-hidden">
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <a href="homepage.html" class="flex items-center">
+                <img
+                  src="../public/logo/logo123.svg"
+                  alt="Ovi Cleaning"
+                  class="block h-12 w-auto md:h-14 lg:h-16"
+                  width="160" height="68"
+                />
+              </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8 font-unbounded transform translate-x-18 ">                    <a href="homepage.html" class="text-text-primary hover:text-primary transition-colors duration-240">Domov</a>
+                    <a href="services.html" class="text-text-primary hover:text-primary transition-colors duration-240">Služby</a>
+                    <a href="gallery.html" class="text-primary font-unbounded font-semibold hover:text-primary-light transition-colors duration-240">Galéria</a>
+                    <a href="reviews.html" class="text-text-primary hover:text-primary transition-colors duration-240">Recenzie</a>
+                    <a href="contact.html" class="text-text-primary hover:text-primary transition-colors duration-240">Kontakt</a>
+                    <a href="about.html" class="text-text-primary hover:text-primary transition-colors duration-240">O nás</a>
+                </div>
+
+
+                <!-- Language Toggle & CTA -->
+                <div class="flex items-center space-x-4">
+                    <div class="hidden md:flex items-center space-x-2 bg-surface rounded-lg p-1">
+                        <button class="px-3 py-1 bg-primary text-text-inverse rounded-md text-sm font-unbounded font-semibold">SK</button>
+                        <button class="px-3 py-1 text-text-secondary hover:text-text-primary rounded-md text-sm font-unbounded transition-colors duration-240">EN</button>
+                    </div>
+                    <button class="btn-primary hidden lg:block font-unbounded">
+                        Objednať
+                    </button>
+                    <!-- Mobile Menu Button -->
+                    <button class="lg:hidden p-2 text-text-primary hover:text-primary transition-colors duration-240">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-16 bg-gradient-to-b from-background-light to-background mt-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl lg:text-6xl mb-6 leading-tight">
+                    <span class="text-gradient-gold font-unbounded font-bold">Naša Práca</span><br />
+                    <span class="text-text-primary font-normal">Hovorí za Seba</span>
+                </h1>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+                    Pozrite si transformácie vozidiel od základného čistenia po kompletný detailing. Každé auto je pre nás jedinečný projekt.
+                </p>
+            </div>
+
+            <!-- Gallery Stats -->
+            <div class="grid md:grid-cols-4 gap-6 mb-16">
+                <div class="text-center">
+                    <div class="text-3xl font-manrope font-bold text-primary mb-2">500+</div>
+                    <p class="text-text-secondary">Spokojných zákazníkov</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-manrope font-bold text-primary mb-2">1200+</div>
+                    <p class="text-text-secondary">Vyčistených vozidiel</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-manrope font-bold text-primary mb-2">10+</div>
+                    <p class="text-text-secondary">Rokov praxe</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-manrope font-bold text-primary mb-2">4.9/5</div>
+                    <p class="text-text-secondary">Hodnotenie zákazníkov</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="py-20 bg-background mt-[-100px]">
+        <div class="container mx-auto px-4">
+            <div id="gallery-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Gallery Item 1 - BMW X5 Detailing -->
+                <div class="gallery-item group" data-category="detailing" data-vehicle="bmw">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/09zb7a.webp" 
+                                 alt="BMW X5 pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/z4qvn1.webp" 
+                                 alt="BMW X5 po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2016/05/06/16/32/car-1376190_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <!-- Overlay Info -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-primary text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">KOMPLETNÝ DETAILING</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">BMW X5 2022</h3>
+                                <p class="text-text-secondary text-sm mb-2">Kompletný detailing s ochranným povlakom</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 4 hodiny</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Before/After Labels -->
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 - Audi A4 Premium -->
+                <div class="gallery-item group" data-category="premium" data-vehicle="audi">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/r1aby2.webp" 
+                                 alt="Audi A4 pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2016/05/06/16/32/car-1376190_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/ykngv8.webp" 
+                                 alt="Audi A4 po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-secondary text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">PRÉMIOVÉ ČISTENIE</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">Audi A4 2021</h3>
+                                <p class="text-text-secondary text-sm mb-2">Detailné čistenie s ošetrením kože</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 2 hodiny</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 - Mercedes Standard -->
+                <div class="gallery-item group" data-category="standard" data-vehicle="mercedes">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/11ys1f.webp" 
+                                 alt="Mercedes pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2017/03/27/14/56/auto-2179220_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/laima1.webp" 
+                                 alt="Mercedes po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2012/11/02/13/02/car-63930_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-success text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">ŠTANDARDNÉ ČISTENIE</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">Mercedes C-Class 2020</h3>
+                                <p class="text-text-secondary text-sm mb-2">Kompletné umytie s ošetrením plastov</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 90 minút</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 - Tesla Premium -->
+                <div class="gallery-item group" data-category="premium" data-vehicle="tesla">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/nf68vz.webp" 
+                                 alt="Tesla pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/0wybl2.webp" 
+                                 alt="Tesla po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2017/08/06/12/06/people-2591874_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-secondary text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">PRÉMIOVÉ ČISTENIE</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">Tesla Model S 2023</h3>
+                                <p class="text-text-secondary text-sm mb-2">Ochranné povlaky a dezinfekcia</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 2.5 hodiny</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 - Volkswagen Basic -->
+                <div class="gallery-item group" data-category="basic" data-vehicle="volkswagen">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/qozyqc.webp" 
+                                 alt="Volkswagen pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2016/04/01/12/11/car-1300629_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/c9c8ew.webp" 
+                                 alt="Volkswagen po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-warning text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">ZÁKLADNÉ ČISTENIE</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">Volkswagen Golf 2019</h3>
+                                <p class="text-text-secondary text-sm mb-2">Vonkajšie umytie a vysávanie</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 60 minút</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 - Porsche Detailing -->
+                <div class="gallery-item group" data-category="detailing" data-vehicle="porsche">
+                    <div class="relative overflow-hidden rounded-xl aspect-[4/3] bg-surface">
+                        <!-- Before/After Slider -->
+                        <div class="ba-slider relative w-full h-full" data-initial="50">
+                            <img src="https://files.catbox.moe/rznpmx.webp" 
+                                 alt="Porsche pred čistením" 
+                                 class="absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pixabay.com/photo/2013/07/12/15/36/motorsports-150157_800.jpg'; this.onerror=null;" />
+                            
+                            <!-- After Image -->
+                            <img src="https://files.catbox.moe/bgy5iy.webp" 
+                                 alt="Porsche po čistení" 
+                                 class="ba-after absolute inset-0 w-full h-full object-cover" 
+                                 loading="lazy" 
+                                 onerror="this.src='https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1'; this.onerror=null;" />
+                            
+                            <!-- Slider Handle -->
+                            <div class="ba-handle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-elevated cursor-pointer z-10 rotate-[89deg]">
+                                <svg class="w-6 h-6 text-text-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-240">
+                            <div class="absolute bottom-4 left-4 right-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="bg-primary text-text-inverse px-2 py-1 rounded text-xs font-manrope font-semibold">LUXUSNÝ DETAILING</span>
+                                    <button class="text-text-primary hover:text-primary transition-colors duration-240">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <h3 class="text-lg font-manrope font-bold text-text-primary mb-1">Porsche 911 2024</h3>
+                                <p class="text-text-secondary text-sm mb-2">Kompletný luxusný detailing</p>
+                                <div class="flex items-center justify-between text-xs text-text-muted">
+                                    <span>Trvanie: 5 hodín</span>
+                                    <span>Január 2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute top-4 left-4 bg-background/80 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-primary">
+                            PRED
+                        </div>
+                        <div class="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-manrope font-semibold text-text-inverse">
+                            PO
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Process Showcase -->
+    <section class="py-20 bg-background">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-manrope font-bold mb-6">
+                    <span class="text-gradient-gold font-unbounded">Náš Proces</span>
+                </h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Pozrite si ako pracujeme. Každý krok je dôležitý pre dokonalý výsledok.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Process Step 1 -->
+                <div class="text-center">
+                    <div class="relative mb-6">
+                        <img src="https://files.catbox.moe/npnbi5.avif" alt="Príprava vozidla" class="w-full aspect-[2.5/3] object-cover rounded-xl" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1'; this.onerror=null;" />
+                        <div class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-text-inverse font-manrope font-bold text-sm">
+                            1
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-manrope font-bold mb-3 font-unbounded">Príprava</h3>
+                    <p class="text-text-secondary">Dôkladná kontrola vozidla a príprava pracovného priestoru</p>
+                </div>
+
+                <!-- Process Step 2 -->
+                <div class="text-center">
+                    <div class="relative mb-6">
+                        <img src="https://files.catbox.moe/s32h6j.avif" alt="Čistenie exteriéru" class="w-full aspect-[2.5/3] object-cover rounded-xl" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2017/08/06/12/06/people-2591874_400.jpg'; this.onerror=null;" />
+                        <div class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-text-inverse font-manrope font-bold text-sm">
+                            2
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-manrope font-bold mb-3 font-unbounded">Exteriér</h3>
+                    <p class="text-text-secondary">Profesionálne umytie a ošetrenie vonkajších plôch</p>
+                </div>
+
+                <!-- Process Step 3 -->
+                <div class="text-center">
+                    <div class="relative mb-6">
+                        <img src="https://files.catbox.moe/w492ou.avif" alt="Čistenie interiéru" class="w-full  aspect-[2.5/3] object-cover rounded-xl" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/05/06/16/32/car-1376190_400.jpg'; this.onerror=null;" />
+                        <div class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-text-inverse font-manrope font-bold text-sm">
+                            3
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-manrope font-bold mb-3 font-unbounded">Interiér</h3>
+                    <p class="text-text-secondary">Detailné čistenie a dezinfekcia vnútorných priestorov</p>
+                </div>
+
+                <!-- Process Step 4 -->
+                <div class="text-center">
+                    <div class="relative mb-6">
+                        <img src="https://files.catbox.moe/laima1.webp" alt="Finálne úpravy" class="w-full  aspect-[2.5/3] object-cover rounded-xl" loading="lazy" onerror="this.src='https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1'; this.onerror=null;" />
+                        <div class="absolute -top-3 -right-3 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-text-inverse font-manrope font-bold text-sm">
+                            4
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-manrope font-bold mb-3 font-unbounded">Finalizácia</h3>
+                    <p class="text-text-secondary">Ochranné povlaky a finálna kontrola kvality</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl lg:text-5xl font-manrope font-bold mb-6">
+                <span class="text-gradient-gold font-unbounded">Pripravení na Transformáciu?</span>
+            </h2>
+            <p class="text-xl text-text-secondary mb-12 max-w-2xl mx-auto">
+                Nechajte vaše auto vyzerať ako nové. Objednajte si termín ešte dnes.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="homepage.html#hero" class="font-unbounded btn-primary hover:shadow-glow">
+                    Objednať Online</a>
+                
+                <a href="tel:+421901234567" class="btn-secondary px-12 py-2.5 text-lg">
+                    <span class="flex items-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span>Zavolať</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-surface border-t border-border py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <a href="homepage.html" class="flex items-center">
+                        <img
+                          src="../public/logo/logo123.svg"
+                          alt="Ovi Cleaning"
+                          class="block h-12 w-auto md:h-14 lg:h-16"
+                          width="160" height="68"
+                        />
+                      </a>
+                    <p class="text-text-secondary mb-4">Profesionálne čistenie a detailing áut v Bratislave s garancou spokojnosti.</p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-colors duration-240">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-colors duration-240">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-colors duration-240">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-manrope font-semibold mb-6">Rýchle Odkazy</h4>
+                    <ul class="space-y-3">
+                        <li><a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Domov</a></li>
+                        <li><a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Služby</a></li>
+                        <li><a href="gallery.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Galéria</a></li>
+                        <li><a href="reviews.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Recenzie</a></li>
+                        <li><a href="about.html" class="text-text-secondary hover:text-primary transition-colors duration-240">O nás</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-manrope font-semibold mb-6">Služby</h4>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Základné čistenie</a></li>
+                        <li><a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Štandardné čistenie</a></li>
+                        <li><a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Prémiové čistenie</a></li>
+                        <li><a href="services.html" class="text-text-secondary hover:text-primary transition-colors duration-240">Kompletný detailing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-manrope font-semibold mb-6">Kontakt</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <a href="tel:+421901234567" class="text-text-secondary hover:text-primary transition-colors duration-240">+421 901 234 567</a>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <a href="mailto:info@ovicleaning.sk" class="text-text-secondary hover:text-primary transition-colors duration-240">info@ovicleaning.sk</a>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Bratislava a okolie</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between">
+                <p class="text-text-secondary text-sm mb-4 md:mb-0">
+                    © 2025 Ovi Cleaning. Všetky práva vyhradené.
+                </p>
+                <div class="flex space-x-6 text-sm">
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-colors duration-240">Ochrana súkromia</a>
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-colors duration-240">Podmienky používania</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+
+    <a href="https://wa.me/421944487521/"
+    class="fixed bottom-24 md:bottom-6 right-4 md:right-6 z-50 w-14 h-14 bg-success hover:bg-success-light rounded-full flex items-center justify-center shadow-elevated hover:shadow-glow-strong transition-all duration-240 hover:-translate-y-1">
+    <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
+    </svg>
+    </a>
+
+    <!-- Mobile Bottom Navigation -->
+    <div class="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface/90 backdrop-blur-md border-t border-border">
+        <div class="grid grid-cols-5 gap-1 p-2">
+            <a href="homepage.html" class="flex flex-col items-center py-2 px-1 text-text-secondary">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+                </svg>
+                <span class="text-xs font-manrope">Domov</span>
+            </a>
+            <a href="services.html" class="flex flex-col items-center py-2 px-1 text-text-secondary">
+                <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                </svg>
+                <span class="text-xs font-manrope">Služby</span>
+            </a>
+            <a href="gallery.html" class="flex flex-col items-center py-2 px-1 text-primary">
+                <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+                <span class="text-xs font-manrope font-semibold">Galéria</span>
+            </a>
+            <a href="reviews.html" class="flex flex-col items-center py-2 px-1 text-text-secondary">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                <span class="text-xs font-manrope">Recenzie</span>
+            </a>
+            <a href="contact.html" class="flex flex-col items-center py-2 px-1 text-text-secondary">
+                <svg class="w-5 h-5 mb-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                </svg>
+                <span class="text-xs font-manrope">Kontakt</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Add padding to body to account for mobile navigation -->
+    <div class="lg:hidden h-20"></div>
+
+    <!-- Custom Styles for Gallery -->
+    <style>
+        .filter-btn {
+            @apply px-4 py-2 rounded-lg text-sm font-manrope font-semibold text-text-secondary bg-surface border border-border transition-all duration-240 hover:text-primary hover:border-primary/50;
+        }
+        
+        .filter-btn.active {
+            @apply text-text-inverse bg-primary border-primary;
+        }
+        
+        .view-toggle {
+            @apply p-2 rounded text-text-secondary hover:text-primary transition-colors duration-240;
+        }
+        
+        .view-toggle.active {
+            @apply text-primary bg-primary/20;
+        }
+        
+        .gallery-item {
+            @apply transition-all duration-240 hover:-translate-y-1;
+        }
+        
+        .clip-path-right {
+            clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+        }
+    </style>
+
+    <!-- Gallery JavaScript -->
+    <script>
+        // Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const viewToggles = document.querySelectorAll('.view-toggle');
+            const galleryGrid = document.getElementById('gallery-grid');
+
+            // Filter gallery items
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active state
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter items
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            // Trigger reflow for animation
+                            void item.offsetWidth;
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 240);
+                        }
+                    });
+                });
+            });
+            
+            // Toggle between grid and list view
+            viewToggles.forEach(button => {
+                button.addEventListener('click', function() {
+                    viewToggles.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const view = this.getAttribute('data-view');
+                    
+                    if (view === 'list') {
+                        galleryGrid.className = 'space-y-6';
+                        galleryItems.forEach(item => {
+                            item.className = 'gallery-item group flex bg-surface rounded-xl p-4 hover:-translate-y-1 transition-all duration-240';
+                        });
+                    } else {
+                        galleryGrid.className = 'grid md:grid-cols-2 lg:grid-cols-3 gap-8';
+                        galleryItems.forEach(item => {
+                            item.className = 'gallery-item group hover:-translate-y-1 transition-all duration-240';
+                        });
+                    }
+                });
+            });
+            
+            // Before/After Slider Functionality
+            function updateSlider(percent, slider, afterImg, handle) {
+                // Ensure percent is between 0 and 100
+                percent = Math.max(0, Math.min(100, percent));
+                
+                // Update CSS custom property
+                slider.style.setProperty('--pos', percent);
+                
+                // Update ARIA attributes for accessibility
+                if (handle) {
+                    handle.setAttribute('aria-valuenow', Math.round(percent));
+                    handle.setAttribute('aria-valuetext', `${Math.round(percent)}%`);
+                    handle.style.left = `${percent}%`;
+                }
+                
+                // Update clip-path for the after image
+                if (afterImg) {
+                    afterImg.style.clipPath = `polygon(${percent}% 0, 100% 0, 100% 100%, ${percent}% 100%)`;
+                }
+            }
+            
+            // Initialize all sliders
+            function initSliders() {
+                document.querySelectorAll('.ba-slider').forEach(slider => {
+                    const afterImg = slider.querySelector('.ba-after');
+                    const handle = slider.querySelector('.ba-handle');
+                    const initialPos = parseInt(slider.dataset.initial) || 50;
+                    let isDragging = false;
+                    
+                    // Set initial position
+                    updateSlider(initialPos, slider, afterImg, handle);
+                    
+                    // Event handlers
+                    function startDrag(e) {
+                        e.preventDefault();
+                        isDragging = true;
+                        slider.classList.add('dragging');
+                        document.body.style.userSelect = 'none';
+                    }
+                    
+                    function drag(e) {
+                        if (!isDragging) return;
+                        e.preventDefault();
+                        
+                        const rect = slider.getBoundingClientRect();
+                        const x = e.clientX || (e.touches && e.touches[0].clientX);
+                        if (x === undefined) return;
+                        
+                        const dx = x - rect.left;
+                        const percent = Math.max(0, Math.min(100, (dx / rect.width) * 100));
+                        
+                        updateSlider(percent, slider, afterImg, handle);
+                    }
+                    
+                    function stopDrag() {
+                        isDragging = false;
+                        slider.classList.remove('dragging');
+                        document.body.style.userSelect = '';
+                    }
+                    
+                    // Mouse events for desktop
+                    handle.addEventListener('mousedown', startDrag);
+                    document.addEventListener('mousemove', drag);
+                    document.addEventListener('mouseup', stopDrag);
+                    
+                    // Touch events for mobile
+                    handle.addEventListener('touchstart', startDrag);
+                    document.addEventListener('touchmove', drag, { passive: false });
+                    document.addEventListener('touchend', stopDrag);
+                    
+                    // Keyboard accessibility
+                    handle.setAttribute('tabindex', '0');
+                    handle.setAttribute('role', 'slider');
+                    handle.setAttribute('aria-valuemin', '0');
+                    handle.setAttribute('aria-valuemax', '100');
+                    handle.setAttribute('aria-valuenow', initialPos);
+                    handle.setAttribute('aria-valuetext', `${initialPos}%`);
+                    
+                    handle.addEventListener('keydown', function(e) {
+                        const currentPos = parseInt(slider.style.getPropertyValue('--pos') || initialPos);
+                        let newPos = currentPos;
+                        
+                        switch(e.key) {
+                            case 'ArrowLeft':
+                                newPos = Math.max(0, currentPos - 5);
+                                e.preventDefault();
+                                break;
+                            case 'ArrowRight':
+                                newPos = Math.min(100, currentPos + 5);
+                                e.preventDefault();
+                                break;
+                            case 'Home':
+                                newPos = 0;
+                                e.preventDefault();
+                                break;
+                            case 'End':
+                                newPos = 100;
+                                e.preventDefault();
+                                break;
+                            default:
+                                return;
+                        }
+                        
+                        updateSlider(newPos, slider, afterImg, handle);
+                    });
+                });
+            }
+            
+            // Initialize sliders on load and on window resize
+            initSliders();
+            
+            // Handle window resize with debounce
+            let resizeTimer;
+            window.addEventListener('resize', function() {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(initSliders, 250);
+            });
+        });
+    </script>
+    
+    <script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

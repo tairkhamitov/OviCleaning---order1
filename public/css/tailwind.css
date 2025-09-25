@@ -151,3 +151,10 @@
     @apply transition-transform duration-240 hover:-translate-y-1;
   }
 }
+  /* small helper to hide scrollbars on tabs row (optional) */
+  .no-scrollbar::-webkit-scrollbar { display:none; }
+  .no-scrollbar { -ms-overflow-style:none; scrollbar-width:none; }
+  /* panels visibility (reuse your class names) */
+  .service-panel { display:none; }
+  .service-panel.active { display:block; }
+  .service-tab.active { background:rgba(255,255,255,0.08); color: var(--color-primary, #d4af37); }
